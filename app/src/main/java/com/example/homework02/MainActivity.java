@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 toppingsrow1.removeAllViews();
                 toppingsrow2.removeAllViews();
                 delivery.setChecked(false);
+                pb.setProgress(0);
             }
         });
 
