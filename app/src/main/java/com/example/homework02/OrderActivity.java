@@ -39,8 +39,8 @@ public class OrderActivity extends AppCompatActivity {
             tv_baseprice.setText("6.50$");
             if(getIntent().getExtras().getBoolean(MainActivity.CHECKBOX)) {
                 deliveryCost = 4.00;
-                tv_deliverycost.setText(deliveryCost+"$");
             }
+            tv_deliverycost.setText(deliveryCost+"$");
             tv_toppings.setText(toppingsCost+"$");
             tv_toppList.setText(Arrays.toString(toppList.toArray()).replace("[","").replace("]",""));
             totalCost = 6.50+deliveryCost+toppingsCost;
